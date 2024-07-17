@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Advanced Custom Fields (ACF) - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-25 17:52:18+0000\n"
+"PO-Revision-Date: 2024-06-27 15:30:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,135 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: pl\n"
 "Project-Id-Version: Plugins - Advanced Custom Fields (ACF) - Stable (latest release)\n"
+
+#: includes/ajax/class-acf-ajax-query-users.php:24
+msgid "Invalid request args."
+msgstr "Nieprawidłowe argumenty żądania."
+
+#: includes/admin/views/acf-field-group/field.php:37
+msgid "ACF PRO Logo"
+msgstr "Logo ACF PRO"
+
+#: includes/admin/views/acf-field-group/pro-features.php:25
+#: includes/admin/views/acf-field-group/pro-features.php:27
+#: includes/admin/views/global/header.php:27
+msgid "ACF PRO logo"
+msgstr "Logo ACF PRO"
+
+#: includes/fields/class-acf-field-icon_picker.php:266
+msgid "Array"
+msgstr "Tablica"
+
+#: includes/fields/class-acf-field-icon_picker.php:194
+msgid "Browse Media Library"
+msgstr "Przeglądaj bibliotekę mediów"
+
+#: includes/fields/class-acf-field-icon_picker.php:265
+msgid "String"
+msgstr "Ciąg znaków"
+
+#: includes/class-acf-site-health.php:280
+msgid "Plugin Version"
+msgstr "Wersja wtyczki"
+
+#: includes/class-acf-site-health.php:328
+msgid "MySQL Version"
+msgstr "Wersja MySQL"
+
+#: includes/class-acf-site-health.php:323
+msgid "WordPress Version"
+msgstr "Wersja WordPressa"
+
+#: includes/class-acf-site-health.php:308
+msgid "License Status"
+msgstr "Status licencji"
+
+#: includes/class-acf-site-health.php:286
+msgid "Free"
+msgstr "Darmowy"
+
+#: includes/class-acf-site-health.php:303
+msgid "License Type"
+msgstr "Rodzaj licencji"
+
+#: includes/class-acf-site-health.php:298
+msgid "Licensed URL"
+msgstr "Adres URL licencji"
+
+#: includes/class-acf-site-health.php:292
+msgid "License Activated"
+msgstr "Licencja została aktywowana"
+
+#: includes/class-acf-site-health.php:316
+msgid "Subscription Expiry Date"
+msgstr "Data wygaśnięcia subskrypcji"
+
+#: includes/class-acf-site-health.php:285
+msgid "Plugin Type"
+msgstr "Rodzaj wtyczki"
+
+#: includes/class-acf-site-health.php:599
+msgid "REST API Format"
+msgstr "Format REST API"
+
+#: includes/fields/class-acf-field-icon_picker.php:142
+msgid "Search icons..."
+msgstr "Szukaj ikonek..."
+
+#: includes/fields/class-acf-field-icon_picker.php:23
+msgid "Icon Picker"
+msgstr "Wybór ikonki"
+
+#: includes/fields/class-acf-field-icon_picker.php:742
+msgid "The type of icon to save."
+msgstr "Rodzaj ikonki do zapisania."
+
+#: includes/fields/class-acf-field-icon_picker.php:748
+msgid "The value of icon to save."
+msgstr "Wartość ikonki do zapisania."
+
+#. translators: %s - field name
+#: includes/fields/class-acf-field-icon_picker.php:772
+msgid "%s is a required property of acf."
+msgstr "%s jest wymaganą właściwością dla ACF."
+
+#. translators: %s - field/param name
+#: includes/fields/class-acf-field-icon_picker.php:788
+msgid "%s requires a valid attachment ID when type is set to media_library."
+msgstr "%s wymaga poprawnego identyfikatora załącznika, gdy rodzaj jest ustawiony na „media_library”."
+
+#: includes/class-acf-site-health.php:353
+msgid "Parent Theme"
+msgstr "Motyw nadrzędny"
+
+#: includes/class-acf-site-health.php:379
+msgid "Active Plugins"
+msgstr "Wtyczki włączone"
+
+#: includes/class-acf-site-health.php:342
+msgid "Active Theme"
+msgstr "Włączony motyw"
+
+#: includes/admin/views/escaped-html-notice.php:25
+msgid "Dismiss permanently"
+msgstr "Odrzuć na zawsze"
+
+#: includes/Blocks/Bindings.php:35
+msgctxt "The core ACF block binding source name for fields on the current page"
+msgid "ACF Fields"
+msgstr "Pola ACF"
+
+#: includes/admin/views/browse-fields-modal.php:14
+msgid "ACF PRO Feature"
+msgstr "Funkcja ACF PRO"
+
+#: includes/admin/views/browse-fields-modal.php:8
+msgid "Renew PRO License"
+msgstr "Odnów licencję PRO"
+
+#: includes/admin/views/browse-fields-modal.php:10
+msgid "Renew PRO to Unlock"
+msgstr "Odnów PRO, aby odblokować"
 
 #: includes/admin/admin.php:62 includes/admin/views/escaped-html-notice.php:24
 msgid "Show&nbsp;details"
@@ -157,16 +286,21 @@ msgstr "Zaktualizuj pole w wybranych elementach, odwołując się do tego identy
 msgid "Enabling the bidirectional setting allows you to update a value in the target fields for each value selected for this field, adding or removing the Post ID, Taxonomy ID or User ID of the item being updated. For more information, please read the <a href=\"%s\" target=\"_blank\">documentation</a>."
 msgstr "Włączenie opcji dwukierunkowości pozwala na aktualizowanie wartości pól docelowych w każdym elemencie wybranym w tym polu, dodając lub usuwając identyfikator aktualizowanego wpisu, terminu taksonomii lub użytkownika. Aby uzyskać więcej informacji przeczytaj <a href=\"%s\" target=\"_blank\">dokumentację</a>."
 
-#: includes/fields/class-acf-field-page_link.php:490
-#: includes/fields/class-acf-field-post_object.php:401
-#: includes/fields/class-acf-field-select.php:381
+#. translators: %s - A singular label for a post type or taxonomy.
+#: includes/admin/views/global/form-top.php:59
+msgid "(Duplicated from %s)"
+msgstr "(zduplikowane z %s)"
+
+#: includes/fields/class-acf-field-page_link.php:498
+#: includes/fields/class-acf-field-post_object.php:411
+#: includes/fields/class-acf-field-select.php:380
 #: includes/fields/class-acf-field-user.php:111
 msgid "Select Multiple"
 msgstr "Wielokrotny wybór"
 
 #: includes/admin/views/acf-field-group/pro-features.php:3
 #: includes/admin/views/options-page-preview.php:29
-#: includes/fields/class-acf-field-icon_picker.php:241
+#: includes/fields/class-acf-field-icon_picker.php:248
 msgid "Learn More"
 msgstr "Dowiedz się więcej"
 
@@ -271,8 +405,8 @@ msgstr "Brak terminów"
 msgid "%s fields"
 msgstr "Pola „%s”"
 
-#: includes/fields/class-acf-field-page_link.php:457
-#: includes/fields/class-acf-field-post_object.php:364
+#: includes/fields/class-acf-field-page_link.php:465
+#: includes/fields/class-acf-field-post_object.php:374
 #: includes/fields/class-acf-field-relationship.php:573
 msgid "Any post status"
 msgstr "Dowolny status wpisu"
@@ -342,8 +476,8 @@ msgstr "Ten klucz taksonomii jest już używany przez inną taksonomię w ACF-ie
 msgid "This taxonomy key is already in use by another taxonomy registered outside of ACF and cannot be used."
 msgstr "Ten klucz taksonomii jest już używany przez inną taksonomię zarejestrowaną poza ACF-em i nie może zostać użyty."
 
-#: includes/fields/class-acf-field-page_link.php:449
-#: includes/fields/class-acf-field-post_object.php:356
+#: includes/fields/class-acf-field-page_link.php:457
+#: includes/fields/class-acf-field-post_object.php:366
 #: includes/fields/class-acf-field-relationship.php:565
 msgid "Filter by Post Status"
 msgstr "Filtruj wg statusu wpisu"
@@ -804,7 +938,7 @@ msgstr "Więcej"
 msgid "Tutorial"
 msgstr "Poradnik"
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:55
+#: includes/ajax/class-acf-ajax-local-json-diff.php:60
 msgid "Invalid post ID."
 msgstr "Nieprawidłowy identyfikator wpisu."
 
@@ -868,6 +1002,7 @@ msgid "Menu Position"
 msgstr "Pozycja menu"
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:822
+#: includes/fields/class-acf-field-icon_picker.php:611
 msgid "Menu Icon"
 msgstr "Ikonka menu"
 
@@ -1400,7 +1535,7 @@ msgstr "Użyj obrazka wyróżniającego"
 msgid "Hierarchical taxonomies can have descendants (like categories)."
 msgstr "Hierarchiczne taksonomie mogą posiadać elementy potomne (jak kategorie)."
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:85
+#: includes/ajax/class-acf-ajax-local-json-diff.php:90
 msgid "JSON (newer)"
 msgstr "JSON (nowszy)"
 
@@ -1561,11 +1696,11 @@ msgstr "Zaimportowanie typu treści lub taksonomii, z tym samym kluczem co już 
 msgid "Try a different search term or browse %s"
 msgstr "Spróbuj innej frazy lub przejrzyj %s"
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:47
+#: includes/ajax/class-acf-ajax-local-json-diff.php:52
 msgid "Invalid post type selected for review."
 msgstr "Wybrano nieprawidłowy typ treści do porównania."
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:81
+#: includes/ajax/class-acf-ajax-local-json-diff.php:86
 msgid "Original"
 msgstr "Oryginalny"
 
@@ -2570,7 +2705,7 @@ msgstr "Zacznij tworzyć nowe własne pola dla swoich wpisów, stron, własnych 
 msgid "Location Rules"
 msgstr "Reguły lokalizacji"
 
-#: includes/fields/class-acf-field-select.php:424
+#: includes/fields/class-acf-field-select.php:423
 #: includes/fields/class-acf-field-true_false.php:188
 msgid "Use a stylized checkbox using select2"
 msgstr "Użyj ostylowanego pola select2"
@@ -2657,7 +2792,7 @@ msgstr "Wtyczki Advanced Custom Fields i Advanced Custom Fields PRO nie powinny 
 msgid "<strong>%1$s</strong> - We've detected one or more calls to retrieve ACF field values before ACF has been initialized. This is not supported and can result in malformed or missing data. <a href=\"%2$s\" target=\"_blank\">Learn how to fix this</a>."
 msgstr "<strong>%1$s</strong> - Wykryliśmy jedno lub kilka wywołań, które pobierają wartości pól przez zainicjowaniem ACF-a. Nie są one obsłużone i może to powodować nieprawidłowe lub brakujące dane. <a href=\"%2$s\" target=\"_blank\">Dowiedz się, jak to naprawić</a>."
 
-#: includes/fields/class-acf-field-user.php:407
+#: includes/fields/class-acf-field-user.php:408
 msgid "Invalid request."
 msgstr "Nieprawidłowe żądanie."
 
@@ -2669,36 +2804,36 @@ msgstr "Pokaż w REST API"
 msgid "%s requires a valid attachment ID."
 msgstr "%s wymaga prawidłowego identyfikatora załącznika."
 
-#: includes/fields/class-acf-field-post_object.php:625
+#: includes/fields/class-acf-field-post_object.php:635
 msgid "%1$s must have a valid post ID."
 msgstr "%1$s musi mieć prawidłowy identyfikator wpisu."
 
-#: includes/fields/class-acf-field-select.php:638
+#: includes/fields/class-acf-field-select.php:637
 msgid "%1$s is not one of %2$s"
 msgstr "%1$s nie zawiera się w %2$s"
 
-#: includes/fields/class-acf-field-post_object.php:650
+#: includes/fields/class-acf-field-post_object.php:660
 msgid "%1$s must have term %2$s."
 msgid_plural "%1$s must have one of the following terms: %2$s"
 msgstr[0] "%1$s musi należeć do taksonomii %2$s."
 msgstr[1] "%1$s musi należeć do jednej z następujących taksonomii: %2$s"
 msgstr[2] "%1$s musi należeć do jednej z następujących taksonomii: %2$s"
 
-#: includes/fields/class-acf-field-post_object.php:634
+#: includes/fields/class-acf-field-post_object.php:644
 msgid "%1$s must be of post type %2$s."
 msgid_plural "%1$s must be of one of the following post types: %2$s"
 msgstr[0] "%1$s musi należeć do typu treści %2$s."
 msgstr[1] "%1$s musi należeć do jednego z następujących typów treści: %2$s"
 msgstr[2] "%1$s musi należeć do jednego z następujących typów treści: %2$s"
 
-#: includes/fields/class-acf-field-user.php:577
+#: includes/fields/class-acf-field-user.php:578
 msgid "%1$s must have a user with the %2$s role."
 msgid_plural "%1$s must have a user with one of the following roles: %2$s"
 msgstr[0] "%1$s musi mieć użytkownika z rolą %2$s."
 msgstr[1] "%1$s musi mieć użytkownika z jedną z następujących ról: %2$s"
 msgstr[2] "%1$s musi mieć użytkownika z jedną z następujących ról: %2$s"
 
-#: includes/fields/class-acf-field-user.php:568
+#: includes/fields/class-acf-field-user.php:569
 msgid "%1$s must have a valid user ID."
 msgstr "%1$s musi mieć prawidłowy identyfikator użytkownika."
 
@@ -2754,7 +2889,7 @@ msgstr "Opcje"
 msgid "Widgets"
 msgstr "Widżety"
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:76
+#: includes/ajax/class-acf-ajax-local-json-diff.php:81
 msgid "Last updated: %s"
 msgstr "Ostatnia aktualizacja: %s"
 
@@ -2887,11 +3022,11 @@ msgstr "Importuj"
 msgid "Saved"
 msgstr "Zapisana"
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:70
+#: includes/ajax/class-acf-ajax-local-json-diff.php:75
 msgid "Sorry, this post is unavailable for diff comparison."
 msgstr "Przepraszamy, ten wpis jest niedostępny dla porównania różnic."
 
-#: includes/ajax/class-acf-ajax-local-json-diff.php:42
+#: includes/ajax/class-acf-ajax-local-json-diff.php:47
 msgid "Invalid field group parameter(s)."
 msgstr "Nieprawidłowy parametr(y) grupy pól."
 
@@ -2909,11 +3044,12 @@ msgstr "Typ lokalizacji „%s” jest już zarejestrowany."
 msgid "Before creating your first Field Group, we recommend first reading our <a href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize yourself with the plugin's philosophy and best practises."
 msgstr "Przed utworzeniem pierwszej grupy pól zalecamy najpierw przeczytanie naszego przewodnika <a href=\"%s\" target=\"_blank\">Pierwsze kroki</a>, aby zapoznać się z filozofią wtyczki i sprawdzonymi metodami."
 
+#: includes/ajax/class-acf-ajax-query-users.php:41
 #: includes/ajax/class-acf-ajax.php:157
 msgid "Invalid nonce."
 msgstr "Nieprawidłowy identyfikator jednorazowy."
 
-#: includes/fields/class-acf-field-user.php:402
+#: includes/fields/class-acf-field-user.php:400
 msgid "Error loading field."
 msgstr "Błąd ładowania pola."
 
@@ -3027,8 +3163,8 @@ msgid "Please select the destination for this field"
 msgstr "Proszę wybrać miejsce przeznaczenia dla tego pola"
 
 #: includes/admin/post-types/admin-field-group.php:94
-#: assets/build/js/acf-input.js:1629 assets/build/js/acf-input.js:1651
-#: assets/build/js/acf-input.js:1783 assets/build/js/acf-input.js:1808
+#: assets/build/js/acf-input.js:1630 assets/build/js/acf-input.js:1652
+#: assets/build/js/acf-input.js:1784 assets/build/js/acf-input.js:1809
 msgid "Checked"
 msgstr "Zaznaczone"
 
@@ -3055,13 +3191,13 @@ msgstr "Wpis"
 msgid "Content"
 msgstr "Treść"
 
-#: includes/media.php:52 assets/build/js/acf-input.js:8065
-#: assets/build/js/acf-input.js:8762
+#: includes/media.php:52 assets/build/js/acf-input.js:8057
+#: assets/build/js/acf-input.js:8751
 msgid "Expand Details"
 msgstr "Rozwiń szczegóły"
 
-#: includes/media.php:50 assets/build/js/acf-input.js:7971
-#: assets/build/js/acf-input.js:8649
+#: includes/media.php:50 assets/build/js/acf-input.js:7963
+#: assets/build/js/acf-input.js:8638
 msgctxt "verb"
 msgid "Update"
 msgstr "Aktualizuj"
@@ -3076,22 +3212,22 @@ msgstr "Edytuj"
 #: includes/admin/views/acf-field-group/conditional-logic.php:182
 #: includes/admin/views/acf-field-group/location-group.php:3
 #: includes/admin/views/acf-field-group/locations.php:35
-#: includes/api/api-helpers.php:2947 assets/build/js/acf-field-group.js:781
+#: includes/api/api-helpers.php:2956 assets/build/js/acf-field-group.js:781
 #: assets/build/js/acf-field-group.js:2427
 #: assets/build/js/acf-field-group.js:946
 #: assets/build/js/acf-field-group.js:2859
 msgid "or"
 msgstr "lub"
 
-#: includes/api/api-helpers.php:2919
+#: includes/api/api-helpers.php:2928
 msgid "File size must be at least %s."
 msgstr "Rozmiar pliku musi wynosić co najmniej %s."
 
-#: includes/api/api-helpers.php:725
+#: includes/api/api-helpers.php:730
 msgid "Large"
 msgstr "Duży"
 
-#: includes/api/api-helpers.php:724
+#: includes/api/api-helpers.php:729
 msgid "Medium"
 msgstr "Średni"
 
@@ -3100,7 +3236,7 @@ msgid "Toggle All"
 msgstr "Przełącz wszystko"
 
 #: includes/admin/views/acf-field-group/fields.php:53
-#: includes/fields/class-acf-field-taxonomy.php:858
+#: includes/fields/class-acf-field-taxonomy.php:851
 msgid "Name"
 msgstr "Nazwa"
 
@@ -3121,12 +3257,12 @@ msgid "Other"
 msgstr "Inne"
 
 #: includes/fields/class-acf-field-file.php:56
-#: assets/build/js/acf-input.js:3161 assets/build/js/acf-input.js:3384
+#: assets/build/js/acf-input.js:3162 assets/build/js/acf-input.js:3385
 msgid "Edit File"
 msgstr "Edytuj plik"
 
-#: includes/fields/class-acf-field-select.php:231 includes/media.php:48
-#: assets/build/js/acf-input.js:7830 assets/build/js/acf-input.js:8495
+#: includes/fields/class-acf-field-select.php:229 includes/media.php:48
+#: assets/build/js/acf-input.js:7822 assets/build/js/acf-input.js:8484
 msgctxt "verb"
 msgid "Select"
 msgstr "Wybierz"
@@ -3257,7 +3393,7 @@ msgstr "Poziomy"
 #: includes/fields/class-acf-field-button-group.php:137
 #: includes/fields/class-acf-field-checkbox.php:322
 #: includes/fields/class-acf-field-radio.php:182
-#: includes/fields/class-acf-field-select.php:343
+#: includes/fields/class-acf-field-select.php:342
 msgid "Choices"
 msgstr "Wybory"
 
@@ -3265,7 +3401,7 @@ msgstr "Wybory"
 msgid "Toolbar"
 msgstr "Pasek narzędzi"
 
-#: includes/fields/class-acf-field-icon_picker.php:230
+#: includes/fields/class-acf-field-icon_picker.php:237
 #: includes/fields/class-acf-field-wysiwyg.php:324
 msgid "Tabs"
 msgstr "Zakładki"
@@ -3365,7 +3501,7 @@ msgctxt "Date Picker JS closeText"
 msgid "Done"
 msgstr "Gotowe"
 
-#: includes/fields/class-acf-field-select.php:423
+#: includes/fields/class-acf-field-select.php:422
 #: includes/fields/class-acf-field-true_false.php:187
 msgid "Stylized UI"
 msgstr "Ostylowany interfejs użytkownika"
@@ -3402,18 +3538,18 @@ msgid "Search"
 msgstr "Szukaj"
 
 #: includes/fields/class-acf-field-google-map.php:57
-#: assets/build/js/acf-input.js:3528 assets/build/js/acf-input.js:3786
+#: assets/build/js/acf-input.js:3529 assets/build/js/acf-input.js:3787
 msgid "Sorry, this browser does not support geolocation"
 msgstr "Przepraszamy, ta przeglądarka nie obsługuje geolokalizacji"
 
 #: includes/fields/class-acf-field-color_picker.php:168
 #: includes/fields/class-acf-field-date_picker.php:200
 #: includes/fields/class-acf-field-date_time_picker.php:188
-#: includes/fields/class-acf-field-icon_picker.php:253
+#: includes/fields/class-acf-field-icon_picker.php:260
 #: includes/fields/class-acf-field-image.php:177
-#: includes/fields/class-acf-field-post_object.php:386
+#: includes/fields/class-acf-field-post_object.php:396
 #: includes/fields/class-acf-field-relationship.php:610
-#: includes/fields/class-acf-field-select.php:365
+#: includes/fields/class-acf-field-select.php:364
 #: includes/fields/class-acf-field-time_picker.php:121
 #: includes/fields/class-acf-field-user.php:95
 msgid "Return Format"
@@ -3434,11 +3570,11 @@ msgstr "Pola"
 msgid "https://www.advancedcustomfields.com"
 msgstr "https://www.advancedcustomfields.com"
 
-#: includes/api/api-helpers.php:2906
+#: includes/api/api-helpers.php:2915
 msgid "Image height must not exceed %dpx."
 msgstr "Wysokość obrazka nie może przekraczać %dpx."
 
-#: includes/fields/class-acf-field-relationship.php:381
+#: includes/fields/class-acf-field-relationship.php:380
 msgid "Select taxonomy"
 msgstr "Wybierz taksonomię"
 
@@ -3498,7 +3634,7 @@ msgid "Radio Button"
 msgstr "Pole wyboru"
 
 #: includes/fields/class-acf-field-image.php:61
-#: assets/build/js/acf-input.js:4182 assets/build/js/acf-input.js:4580
+#: assets/build/js/acf-input.js:4181 assets/build/js/acf-input.js:4579
 msgid "Edit Image"
 msgstr "Edytuj obrazek"
 
@@ -3519,7 +3655,7 @@ msgid "width"
 msgstr "szerokość"
 
 #: includes/fields/class-acf-field-file.php:57
-#: assets/build/js/acf-input.js:3162 assets/build/js/acf-input.js:3385
+#: assets/build/js/acf-input.js:3163 assets/build/js/acf-input.js:3386
 msgid "Update File"
 msgstr "Aktualizuj plik"
 
@@ -3545,7 +3681,7 @@ msgstr "Identyfikator użytkownika"
 msgid "No matches found"
 msgstr "Brak pasujących wyników"
 
-#: includes/fields/class-acf-field-post_object.php:392
+#: includes/fields/class-acf-field-post_object.php:402
 #: includes/fields/class-acf-field-relationship.php:616
 msgid "Post ID"
 msgstr "Identyfikator wpisu"
@@ -3603,7 +3739,7 @@ msgid "Sets the textarea height"
 msgstr "Określa wysokość obszaru tekstowego"
 
 #: includes/fields/class-acf-field-checkbox.php:333
-#: includes/fields/class-acf-field-select.php:355
+#: includes/fields/class-acf-field-select.php:354
 msgid "Enter each default value on a new line"
 msgstr "Wpisz każdą domyślną wartość w osobnej linii"
 
@@ -3632,7 +3768,7 @@ msgstr "kopia"
 #: includes/fields/class-acf-field-button-group.php:138
 #: includes/fields/class-acf-field-checkbox.php:323
 #: includes/fields/class-acf-field-radio.php:183
-#: includes/fields/class-acf-field-select.php:344
+#: includes/fields/class-acf-field-select.php:343
 msgid "Enter each choice on a new line."
 msgstr "Wpisz każdy z wyborów w osobnej linii."
 
@@ -3692,7 +3828,7 @@ msgstr "Pojedyncze słowo, bez spacji. Dozwolone są myślniki i podkreślniki"
 msgid "Allow HTML markup to display as visible text instead of rendering"
 msgstr "Zezwól aby znaczniki HTML były wyświetlane jako widoczny tekst, a nie renderowane"
 
-#: includes/fields/class-acf-field-select.php:366
+#: includes/fields/class-acf-field-select.php:365
 msgid "Specify the value returned"
 msgstr "Określ zwracaną wartość"
 
@@ -3703,7 +3839,7 @@ msgstr "Wielkość kroku"
 
 #: includes/fields/class-acf-field-image.php:238
 #: includes/fields/class-acf-field-image.php:274
-#: includes/fields/class-acf-field-oembed.php:250
+#: includes/fields/class-acf-field-oembed.php:241
 msgid "Width"
 msgstr "Szerokość"
 
@@ -3722,13 +3858,13 @@ msgstr "Typ strony"
 #: includes/fields/class-acf-field-button-group.php:164
 #: includes/fields/class-acf-field-checkbox.php:349
 #: includes/fields/class-acf-field-radio.php:209
-#: includes/fields/class-acf-field-select.php:372
+#: includes/fields/class-acf-field-select.php:371
 msgid "Label"
 msgstr "Etykieta"
 
 #: includes/admin/tools/class-acf-admin-tool-import.php:55
 #: includes/fields/class-acf-field-file.php:55
-#: assets/build/js/acf-input.js:3135 assets/build/js/acf-input.js:3357
+#: assets/build/js/acf-input.js:3136 assets/build/js/acf-input.js:3358
 msgid "Select File"
 msgstr "Wybierz plik"
 
@@ -3762,16 +3898,16 @@ msgstr "Mapa Google"
 msgid "File size"
 msgstr "Wielkość pliku"
 
-#: includes/api/api-helpers.php:1400 includes/api/api-term.php:140
+#: includes/api/api-helpers.php:1409 includes/api/api-term.php:140
 msgid "(no title)"
 msgstr "(brak tytułu)"
 
-#: includes/fields/class-acf-field-page_link.php:187
+#: includes/fields/class-acf-field-page_link.php:196
 msgid "Archives"
 msgstr "Archiwa"
 
 #: includes/fields/class-acf-field-post_object.php:15
-#: includes/fields/class-acf-field-post_object.php:391
+#: includes/fields/class-acf-field-post_object.php:401
 #: includes/fields/class-acf-field-relationship.php:615
 msgid "Post Object"
 msgstr "Obiekt wpisu"
@@ -3803,8 +3939,8 @@ msgid "Revisions"
 msgstr "Wersje"
 
 #: includes/assets.php:368 includes/validation.php:247
-#: includes/validation.php:255 assets/build/js/acf-input.js:10480
-#: assets/build/js/acf-input.js:11531
+#: includes/validation.php:255 assets/build/js/acf-input.js:10475
+#: assets/build/js/acf-input.js:11525
 msgid "Validation failed"
 msgstr "Walidacja nie powiodła się"
 
@@ -3816,8 +3952,8 @@ msgstr "%s wartość jest wymagana"
 msgid "Current User Role"
 msgstr "Rola bieżącego użytkownika"
 
-#: includes/fields/class-acf-field-page_link.php:464
-#: includes/fields/class-acf-field-post_object.php:371
+#: includes/fields/class-acf-field-page_link.php:472
+#: includes/fields/class-acf-field-post_object.php:381
 #: includes/fields/class-acf-field-relationship.php:580
 msgid "Filter by Taxonomy"
 msgstr "Filtruj wg taksonomii"
@@ -3878,7 +4014,7 @@ msgstr "Dodaj nowy wybór"
 #: includes/fields/class-acf-field-button-group.php:138
 #: includes/fields/class-acf-field-checkbox.php:323
 #: includes/fields/class-acf-field-radio.php:183
-#: includes/fields/class-acf-field-select.php:344
+#: includes/fields/class-acf-field-select.php:343
 msgid "red : Red"
 msgstr "czerwony : Czerwony"
 
@@ -3908,8 +4044,8 @@ msgstr "Brak formatowania"
 msgid "Value must not exceed %d characters"
 msgstr "Wartość nie może przekraczać %d znaków"
 
-#: includes/fields/class-acf-field-page_link.php:472
-#: includes/fields/class-acf-field-post_object.php:379
+#: includes/fields/class-acf-field-page_link.php:480
+#: includes/fields/class-acf-field-post_object.php:389
 #: includes/fields/class-acf-field-relationship.php:588
 msgid "All taxonomies"
 msgstr "Wszystkie taksonomie"
@@ -3941,7 +4077,7 @@ msgstr "Prawda / Fałsz"
 #: includes/fields/class-acf-field-google-map.php:221
 #: includes/fields/class-acf-field-image.php:249
 #: includes/fields/class-acf-field-image.php:285
-#: includes/fields/class-acf-field-oembed.php:262
+#: includes/fields/class-acf-field-oembed.php:253
 msgid "Height"
 msgstr "Wysokość"
 
@@ -3957,7 +4093,7 @@ msgstr "Tekst, gdy włączone"
 msgid "Off Text"
 msgstr "Tekst, gdy wyłączone"
 
-#: includes/fields/class-acf-field-taxonomy.php:888
+#: includes/fields/class-acf-field-taxonomy.php:881
 #: includes/locations/class-acf-location-user-form.php:72
 msgid "Add"
 msgstr "Dodaj"
@@ -3987,7 +4123,7 @@ msgstr "Przypisz wybrane terminy taksonomii do wpisu"
 msgid "Load value from posts terms"
 msgstr "Wczytaj wartości z terminów taksonomii z wpisu"
 
-#: includes/fields/class-acf-field-taxonomy.php:807
+#: includes/fields/class-acf-field-taxonomy.php:800
 msgid "%s already exists"
 msgstr "%s już istnieje"
 
@@ -4049,8 +4185,8 @@ msgstr "Grupa przycisków"
 msgid "oEmbed"
 msgstr "oEmbed"
 
-#: includes/fields/class-acf-field-oembed.php:247
-#: includes/fields/class-acf-field-oembed.php:259
+#: includes/fields/class-acf-field-oembed.php:238
+#: includes/fields/class-acf-field-oembed.php:250
 msgid "Embed Size"
 msgstr "Rozmiar osadzenia"
 
@@ -4058,84 +4194,84 @@ msgstr "Rozmiar osadzenia"
 msgid "Choice"
 msgstr "Wybór"
 
-#: includes/api/api-helpers.php:2923
+#: includes/api/api-helpers.php:2932
 msgid "File size must not exceed %s."
 msgstr "Rozmiar pliku nie może przekraczać %s."
 
-#: includes/assets.php:364 assets/build/js/acf-input.js:10258
-#: assets/build/js/acf-input.js:11303
+#: includes/assets.php:364 assets/build/js/acf-input.js:10253
+#: assets/build/js/acf-input.js:11297
 msgid "The changes you made will be lost if you navigate away from this page"
 msgstr "Wprowadzone przez Ciebie zmiany przepadną jeśli przejdziesz do innej strony"
 
-#: includes/media.php:53 assets/build/js/acf-input.js:8065
-#: assets/build/js/acf-input.js:8765
+#: includes/media.php:53 assets/build/js/acf-input.js:8057
+#: assets/build/js/acf-input.js:8754
 msgid "Collapse Details"
 msgstr "Zwiń szczegóły"
 
-#: includes/assets.php:367 assets/build/js/acf-input.js:10648
-#: assets/build/js/acf-input.js:11709
+#: includes/assets.php:367 assets/build/js/acf-input.js:10643
+#: assets/build/js/acf-input.js:11703
 msgid "Validation successful"
 msgstr "Walidacja zakończona sukcesem"
 
-#: includes/assets.php:369 assets/build/js/acf-input.js:10485
-#: assets/build/js/acf-input.js:11536
+#: includes/assets.php:369 assets/build/js/acf-input.js:10480
+#: assets/build/js/acf-input.js:11530
 msgid "1 field requires attention"
 msgstr "1 pole wymaga uwagi"
 
 #: includes/admin/post-types/admin-field-group.php:104
-#: assets/build/js/acf-input.js:1487 assets/build/js/acf-input.js:1586
+#: assets/build/js/acf-input.js:1488 assets/build/js/acf-input.js:1587
 msgid "Has any value"
 msgstr "Ma dowolną wartość"
 
 #: includes/admin/post-types/admin-field-group.php:105
-#: assets/build/js/acf-input.js:1514 assets/build/js/acf-input.js:1637
+#: assets/build/js/acf-input.js:1515 assets/build/js/acf-input.js:1638
 msgid "Has no value"
 msgstr "Nie ma wartości"
 
 #: includes/admin/post-types/admin-field-group.php:106
-#: assets/build/js/acf-input.js:1533 assets/build/js/acf-input.js:1669
-#: assets/build/js/acf-input.js:1657 assets/build/js/acf-input.js:1828
+#: assets/build/js/acf-input.js:1534 assets/build/js/acf-input.js:1670
+#: assets/build/js/acf-input.js:1658 assets/build/js/acf-input.js:1829
 msgid "Value is equal to"
 msgstr "Wartość jest równa"
 
 #: includes/admin/post-types/admin-field-group.php:107
-#: assets/build/js/acf-input.js:1560 assets/build/js/acf-input.js:1725
-#: assets/build/js/acf-input.js:1693 assets/build/js/acf-input.js:1888
+#: assets/build/js/acf-input.js:1561 assets/build/js/acf-input.js:1726
+#: assets/build/js/acf-input.js:1694 assets/build/js/acf-input.js:1889
 msgid "Value is not equal to"
 msgstr "Wartość nie jest równa"
 
 #: includes/admin/post-types/admin-field-group.php:108
-#: assets/build/js/acf-input.js:1579 assets/build/js/acf-input.js:1713
+#: assets/build/js/acf-input.js:1580 assets/build/js/acf-input.js:1714
 msgid "Value matches pattern"
 msgstr "Wartość musi pasować do wzoru"
 
 #: includes/admin/post-types/admin-field-group.php:109
-#: assets/build/js/acf-input.js:1602 assets/build/js/acf-input.js:1744
+#: assets/build/js/acf-input.js:1603 assets/build/js/acf-input.js:1745
 msgid "Value contains"
 msgstr "Wartość zawiera"
 
 #: includes/admin/post-types/admin-field-group.php:110
-#: assets/build/js/acf-input.js:1744 assets/build/js/acf-input.js:1908
+#: assets/build/js/acf-input.js:1745 assets/build/js/acf-input.js:1909
 msgid "Value is greater than"
 msgstr "Wartość jest większa niż"
 
 #: includes/admin/post-types/admin-field-group.php:111
-#: assets/build/js/acf-input.js:1771 assets/build/js/acf-input.js:1936
+#: assets/build/js/acf-input.js:1772 assets/build/js/acf-input.js:1937
 msgid "Value is less than"
 msgstr "Wartość jest mniejsza niż"
 
 #: includes/admin/post-types/admin-field-group.php:112
-#: assets/build/js/acf-input.js:1799 assets/build/js/acf-input.js:1965
+#: assets/build/js/acf-input.js:1800 assets/build/js/acf-input.js:1966
 msgid "Selection is greater than"
 msgstr "Wybór jest większy niż"
 
 #: includes/admin/post-types/admin-field-group.php:113
-#: assets/build/js/acf-input.js:1815 assets/build/js/acf-input.js:1990
+#: assets/build/js/acf-input.js:1816 assets/build/js/acf-input.js:1991
 msgid "Selection is less than"
 msgstr "Wybór jest mniejszy niż"
 
 #: includes/assets.php:376 includes/forms/form-comment.php:140
-#: assets/build/js/acf-input.js:8422 assets/build/js/acf-input.js:9197
+#: assets/build/js/acf-input.js:8414 assets/build/js/acf-input.js:9186
 msgid "Edit field group"
 msgstr "Edytuj grupę pól"
 
@@ -4363,7 +4499,7 @@ msgstr "Taksonomia"
 msgid "Delete field"
 msgstr "Usuń pole"
 
-#: includes/api/api-helpers.php:723
+#: includes/api/api-helpers.php:728
 msgid "Thumbnail"
 msgstr "Miniatura"
 
@@ -4376,7 +4512,7 @@ msgstr "Czy na pewno?"
 msgid "Post Status"
 msgstr "Status wpisu"
 
-#: includes/fields/class-acf-field-taxonomy.php:843
+#: includes/fields/class-acf-field-taxonomy.php:836
 msgid "%s added"
 msgstr "Dodano %s"
 
@@ -4385,7 +4521,7 @@ msgid "Instructions"
 msgstr "Instrukcje"
 
 #: includes/fields/class-acf-field-relationship.php:76
-#: assets/build/js/acf-input.js:4826 assets/build/js/acf-input.js:5273
+#: assets/build/js/acf-input.js:4825 assets/build/js/acf-input.js:5272
 msgid "Maximum values reached ( {max} values )"
 msgstr "Maksymalna liczba wartości została przekroczona ( {max} wartości )"
 
@@ -4412,8 +4548,8 @@ msgstr "Maksimum"
 msgid "User Role"
 msgstr "Rola użytkownika"
 
-#: includes/media.php:54 assets/build/js/acf-input.js:8250
-#: assets/build/js/acf-input.js:9001
+#: includes/media.php:54 assets/build/js/acf-input.js:8242
+#: assets/build/js/acf-input.js:8990
 msgid "Restricted"
 msgstr "Ograniczone"
 
@@ -4498,7 +4634,7 @@ msgstr "Komentarze"
 msgid "Password"
 msgstr "Hasło"
 
-#: includes/api/api-helpers.php:760
+#: includes/api/api-helpers.php:765
 msgid "Full Size"
 msgstr "Pełny rozmiar"
 
@@ -4579,7 +4715,7 @@ msgstr "Plik"
 #: includes/fields/class-acf-field-button-group.php:163
 #: includes/fields/class-acf-field-checkbox.php:348
 #: includes/fields/class-acf-field-radio.php:208
-#: includes/fields/class-acf-field-select.php:371
+#: includes/fields/class-acf-field-select.php:370
 msgid "Value"
 msgstr "Wartość"
 
@@ -4600,15 +4736,15 @@ msgid "Description"
 msgstr "Opis"
 
 #. translators: %s: field group title
-#: includes/admin/admin-internal-post-type-list.php:887
+#: includes/admin/admin-internal-post-type-list.php:960
 msgid "Select %s"
 msgstr "Wybierz %s"
 
-#: includes/api/api-helpers.php:2886
+#: includes/api/api-helpers.php:2895
 msgid "Image width must be at least %dpx."
 msgstr "Obrazek musi mieć co najmniej %dpx szerokości."
 
-#: includes/api/api-helpers.php:2890
+#: includes/api/api-helpers.php:2899
 msgid "Image width must not exceed %dpx."
 msgstr "Szerokość obrazka nie może przekraczać %dpx."
 
@@ -4616,14 +4752,14 @@ msgstr "Szerokość obrazka nie może przekraczać %dpx."
 msgid "Select Link"
 msgstr "Wybierz odnośnik"
 
-#: includes/fields/class-acf-field-oembed.php:207
+#: includes/fields/class-acf-field-oembed.php:198
 msgid "Enter URL"
 msgstr "Wpisz adres URL"
 
 #: includes/fields/class-acf-field-button-group.php:165
 #: includes/fields/class-acf-field-checkbox.php:350
 #: includes/fields/class-acf-field-radio.php:210
-#: includes/fields/class-acf-field-select.php:373
+#: includes/fields/class-acf-field-select.php:372
 msgid "Both (Array)"
 msgstr "Oba (tablica)"
 
@@ -4637,12 +4773,12 @@ msgstr "Pierwszy dzień tygodnia"
 msgid "Documentation"
 msgstr "Dokumentacja"
 
-#: includes/fields/class-acf-field-relationship.php:373
+#: includes/fields/class-acf-field-relationship.php:372
 msgid "Select post type"
 msgstr "Wybierz typ treści"
 
-#: includes/fields/class-acf-field-page_link.php:434
-#: includes/fields/class-acf-field-post_object.php:341
+#: includes/fields/class-acf-field-page_link.php:442
+#: includes/fields/class-acf-field-post_object.php:351
 #: includes/fields/class-acf-field-relationship.php:550
 msgid "Filter by Post Type"
 msgstr "Filtruj wg typu treści"
@@ -4653,8 +4789,8 @@ msgstr "Filtruj wg typu treści"
 msgid "Post Type"
 msgstr "Typ treści"
 
-#: includes/fields/class-acf-field-page_link.php:442
-#: includes/fields/class-acf-field-post_object.php:349
+#: includes/fields/class-acf-field-page_link.php:450
+#: includes/fields/class-acf-field-post_object.php:359
 #: includes/fields/class-acf-field-relationship.php:558
 msgid "All post types"
 msgstr "Wszystkie typy treści"
@@ -4695,8 +4831,8 @@ msgid "Select"
 msgstr "Lista wyboru"
 
 #: includes/fields/class-acf-field-image.php:60
-#: assets/build/js/acf-input.js:4018 assets/build/js/acf-input.js:4158
-#: assets/build/js/acf-input.js:4406 assets/build/js/acf-input.js:4555
+#: assets/build/js/acf-input.js:4017 assets/build/js/acf-input.js:4157
+#: assets/build/js/acf-input.js:4405 assets/build/js/acf-input.js:4554
 msgid "Select Image"
 msgstr "Wybierz obrazek"
 
@@ -4707,7 +4843,7 @@ msgstr "Wybierz obrazek"
 #: includes/fields/class-acf-field-number.php:113
 #: includes/fields/class-acf-field-radio.php:192
 #: includes/fields/class-acf-field-range.php:153
-#: includes/fields/class-acf-field-select.php:354
+#: includes/fields/class-acf-field-select.php:353
 #: includes/fields/class-acf-field-text.php:95
 #: includes/fields/class-acf-field-textarea.php:93
 #: includes/fields/class-acf-field-true_false.php:135
@@ -4794,12 +4930,12 @@ msgid "Image"
 msgstr "Obrazek"
 
 #: includes/fields/class-acf-field-image.php:63 includes/media.php:55
-#: assets/build/js/acf-input.js:7877 assets/build/js/acf-input.js:8549
+#: assets/build/js/acf-input.js:7869 assets/build/js/acf-input.js:8538
 msgid "All images"
 msgstr "Wszystkie obrazki"
 
 #: includes/fields/class-acf-field-image.php:62
-#: assets/build/js/acf-input.js:4183 assets/build/js/acf-input.js:4581
+#: assets/build/js/acf-input.js:4182 assets/build/js/acf-input.js:4580
 msgid "Update Image"
 msgstr "Aktualizuj obrazek"
 
@@ -4857,7 +4993,7 @@ msgstr "Pionowy"
 msgid "Specify the returned value on front end"
 msgstr "Określ wartość zwracaną w witrynie"
 
-#: includes/fields/class-acf-field-page_link.php:479
+#: includes/fields/class-acf-field-page_link.php:487
 msgid "Allow Archives URLs"
 msgstr "Zezwól na adresy URL archiwów"
 
@@ -4873,7 +5009,7 @@ msgstr "Zezwól na tworzenie nowych terminów taksonomii podczas edycji"
 msgid "Add 'other' choice to allow for custom values"
 msgstr "Dodaj wybór „inne”, aby zezwolić na własne wartości"
 
-#: includes/fields/class-acf-field-select.php:434
+#: includes/fields/class-acf-field-select.php:433
 msgid "Use AJAX to lazy load choices?"
 msgstr "Używaj AJAX do wczytywania wyborów?"
 
@@ -4900,7 +5036,7 @@ msgstr "Wyświetlany na liście grup pól"
 #: includes/fields/class-acf-field-button-group.php:138
 #: includes/fields/class-acf-field-checkbox.php:323
 #: includes/fields/class-acf-field-radio.php:183
-#: includes/fields/class-acf-field-select.php:344
+#: includes/fields/class-acf-field-select.php:343
 msgid "For more control, you may specify both a value and label like this:"
 msgstr "Aby uzyskać większą kontrolę, można określić wartość i etykietę w niniejszy sposób:"
 
@@ -4921,7 +5057,7 @@ msgid "Prepend an extra checkbox to toggle all choices"
 msgstr "Dołącz dodatkowe pole, aby grupowo włączać/wyłączać wszystkie wybory"
 
 #: includes/admin/post-types/admin-field-group.php:100
-#: assets/build/js/acf-input.js:1688 assets/build/js/acf-input.js:1850
+#: assets/build/js/acf-input.js:1689 assets/build/js/acf-input.js:1851
 msgid "Null"
 msgstr "Pusty"
 
@@ -4965,7 +5101,7 @@ msgstr "Wartość maksymalna"
 msgid "Image URL"
 msgstr "Adres URL obrazka"
 
-#: includes/api/api-helpers.php:2902
+#: includes/api/api-helpers.php:2911
 msgid "Image height must be at least %dpx."
 msgstr "Obrazek musi mieć co najmniej %dpx wysokości."
 
@@ -5092,7 +5228,7 @@ msgid "Sync"
 msgstr "Synchronizuj"
 
 #: includes/admin/admin-internal-post-type-list.php:414
-#: includes/admin/admin-internal-post-type-list.php:759
+#: includes/admin/admin-internal-post-type-list.php:832
 msgid "Sync available"
 msgstr "Synchronizacja jest dostępna"
 
@@ -5105,14 +5241,14 @@ msgid "Post updated"
 msgstr "Wpis został zaktualizowany"
 
 #: includes/admin/views/acf-post-type/advanced-settings.php:470
-#: includes/media.php:51 assets/build/js/acf-input.js:7932
-#: assets/build/js/acf-input.js:8610
+#: includes/media.php:51 assets/build/js/acf-input.js:7924
+#: assets/build/js/acf-input.js:8599
 msgid "Uploaded to this post"
 msgstr "Wgrane do wpisu"
 
-#: includes/fields/class-acf-field-page_link.php:264
-#: includes/fields/class-acf-field-post_object.php:245
-#: includes/fields/class-acf-field-taxonomy.php:876
+#: includes/fields/class-acf-field-page_link.php:273
+#: includes/fields/class-acf-field-post_object.php:254
+#: includes/fields/class-acf-field-taxonomy.php:869
 msgid "Parent"
 msgstr "Element nadrzędny"
 
@@ -5241,7 +5377,7 @@ msgstr "Wczytuję więcej wyników&hellip;"
 msgid "Thank you for updating to %1$s v%2$s!"
 msgstr "Dziękujemy za aktualizację %1$s do wersji %2$s!"
 
-#: includes/api/api-helpers.php:2950
+#: includes/api/api-helpers.php:2959
 msgid "File type must be %s."
 msgstr "Wymagany typ pliku to %s."
 
@@ -5261,8 +5397,8 @@ msgctxt "Select2 JS selection_too_long_n"
 msgid "You can only select %d items"
 msgstr "Możesz wybrać tylko %d elementy(-tów)"
 
-#: includes/assets.php:370 assets/build/js/acf-input.js:10487
-#: assets/build/js/acf-input.js:11538
+#: includes/assets.php:370 assets/build/js/acf-input.js:10482
+#: assets/build/js/acf-input.js:11532
 msgid "%d fields require attention"
 msgstr "%d pola(-ól) wymaga uwagi"
 
@@ -5284,7 +5420,7 @@ msgstr "Ciąg znaków „field_” nie może zostać użyty na początku nazwy p
 msgid "Select the items you would like to export and then select your export method. Export As JSON to export to a .json file which you can then import to another ACF installation. Generate PHP to export to PHP code which you can place in your theme."
 msgstr "Wybierz elementy, które chcesz wyeksportować, a następnie wybierz metodę eksportu. Użyj „Eksportuj jako JSON” aby wyeksportować do pliku .json, który można następnie zaimportować do innej instalacji ACF. Użyj „Utwórz PHP” do wyeksportowania ustawień do kodu PHP, który można umieścić w motywie."
 
-#: includes/fields/class-acf-field-taxonomy.php:795
+#: includes/fields/class-acf-field-taxonomy.php:788
 msgid "User unable to add new %s"
 msgstr "Użytkownik nie może dodać nowych „%s”"
 
@@ -5319,10 +5455,10 @@ msgid "Instruction Placement"
 msgstr "Położenie instrukcji"
 
 #: includes/fields/class-acf-field-button-group.php:183
-#: includes/fields/class-acf-field-page_link.php:511
-#: includes/fields/class-acf-field-post_object.php:422
+#: includes/fields/class-acf-field-page_link.php:519
+#: includes/fields/class-acf-field-post_object.php:432
 #: includes/fields/class-acf-field-radio.php:228
-#: includes/fields/class-acf-field-select.php:402
+#: includes/fields/class-acf-field-select.php:401
 #: includes/fields/class-acf-field-taxonomy.php:705
 #: includes/fields/class-acf-field-user.php:132
 msgid "Allow Null"
