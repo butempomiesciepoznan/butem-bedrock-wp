@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5555333e0e327908002c2eb696e56c2",
+    "content-hash": "00304c3411ad1e3cdfdc5e19e95f977c",
     "packages": [
         {
             "name": "composer/installers",
@@ -2205,6 +2205,24 @@
                 }
             ],
             "time": "2024-07-21T23:26:44+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wp-api-swaggerui",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-api-swaggerui/",
+                "reference": "tags/1.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-api-swaggerui.1.2.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-api-swaggerui/"
         }
     ],
     "aliases": [],
