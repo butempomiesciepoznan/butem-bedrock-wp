@@ -7,6 +7,13 @@ remove_filter('the_content', 'wpautop');
 
 add_theme_support('menus');
 
+add_filter( 'faustwp_exclude_from_public_redirect', function( $excluded ) {
+    $excluded = array_merge( $excluded, [
+      'docs'
+    ]);
+    return $excluded;
+  }, 10, 1 );
+
 // Return formatted main-nav menu
 function main_nav_menu() {
     $menu = wp_get_nav_menu_items('main-nav');
@@ -27,6 +34,7 @@ add_action( 'rest_api_init', function() {
     register_rest_route( 'wp/v2', 'main-nav', array(
         'methods' => 'GET',
         'callback' => 'main_nav_menu',
+        'permission_callback' => '__return_true'
     ) );
 });
 
@@ -50,5 +58,6 @@ add_action( 'rest_api_init', function() {
     register_rest_route( 'wp/v2', 'footer-nav', array(
         'methods' => 'GET',
         'callback' => 'footer_nav_menu',
+        'permission_callback' => '__return_true'
     ) );
 });
